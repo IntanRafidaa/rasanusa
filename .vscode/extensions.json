@@ -1,3 +1,12 @@
 {
+<<<<<<< HEAD
   "recommendations": ["Vue.volar"]
+=======
+  "recommendations": [
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode"
+  ]
+>>>>>>> da3dd62fb1b46002dcb031c258fa1b55dc7db935
 }

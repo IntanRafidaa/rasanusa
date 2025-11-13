@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="font-sans bg-gray-50 min-h-screen flex flex-col">
     <Navbar />
     <main class="flex-1 relative">
@@ -20,14 +21,22 @@
     </main>
     <Footer />
   </div>
+=======
+  <Navbar />
+  <RouterView />
+  <Footer />
+>>>>>>> da3dd62fb1b46002dcb031c258fa1b55dc7db935
 </template>
 
 <script setup>
 import Navbar from "./components/Navbar.vue"
 import Footer from "./components/Footer.vue"
+<<<<<<< HEAD
 
 // Nomor WA tujuan
 const phoneNumber = "62882000076168" // ganti sesuai kebutuhan
 const defaultMessage = encodeURIComponent("Halo, saya ingin bertanya mengenai pesanan saya")
 const waLink = `https://wa.me/${phoneNumber}?text=${defaultMessage}`
+=======
+>>>>>>> da3dd62fb1b46002dcb031c258fa1b55dc7db935
 </script>

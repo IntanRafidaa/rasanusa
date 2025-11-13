@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router"
 
+<<<<<<< HEAD
 // Pages utama
 import Home from "../pages/Home.vue"
 import Shop from "../pages/Shop.vue"
@@ -62,6 +63,21 @@ const routes = [
     name: "OrderDetail",
     component: () => import("../pages/OrderDetail.vue"),
   },
+=======
+// import halaman
+import Home from "../pages/Home.vue"
+import Kategori from "../pages/Kategori.vue"
+import Tentang from "../pages/Tentang.vue"
+import SemuaResep from "../pages/SemuaResep.vue"
+import DetailResep from "../pages/DetailResep.vue"
+
+const routes = [
+  { path: "/", component: Home },
+  { path: "/kategori/:jenis?", component: Kategori },
+  { path: "/tentang", component: Tentang },
+  { path: "/semua-resep", component: SemuaResep },
+  { path: "/resep/:id", component: DetailResep },
+>>>>>>> da3dd62fb1b46002dcb031c258fa1b55dc7db935
 ]
 
 const router = createRouter({

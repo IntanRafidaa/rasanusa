@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <footer class="bg-black text-gray-300 pt-12 pb-6">
     <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Kolom 1: Info -->
@@ -48,3 +49,9 @@
 <style>
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 </style>
+=======
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center mt-12">
+    <p>© 2025 <strong class="text-primary">RasaNusa</strong> — Jelajahi Cita Rasa Nusantara 🇮🇩</p>
+  </footer>
+</template>
+>>>>>>> da3dd62fb1b46002dcb031c258fa1b55dc7db935
